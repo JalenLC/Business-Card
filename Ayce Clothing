@@ -1,0 +1,59 @@
+<div class="container">
+  <h1 id="company">Ayce</h1>
+  <h2 id="business">Clothing Brand</h2>
+  <div class="contact">
+    <div class="social">
+    <span>IG:Aycenyc</span>
+      <br />
+        <span>FB:Aycenyc</span>
+    </div>
+        <div id="ceo">
+          CEO:Jalen Copeland
+        </div>
+  </div>
+</div>
+
+.container{
+  height: 200px;
+  width: 480px;
+  border: 1px solid black;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+#company{
+  font-size: 32px;
+  font-family: Lucida Handwriting, san-sarif;
+  text-align: center;
+  text-shadow: 2px 1px #d3d3d3;
+  margin-top: 20px;
+  color: white;
+}
+
+#business{
+  font-size: 24px;
+  font-family: georgia, san-sarif;
+  text-align: center;
+  margin: 5px;
+  color: black;
+}
+
+.contact{
+  font-size: 14px;
+  font-family: Monaco;
+  margin-bottom: 32px;
+  padding: 24px;
+}
+
+.social{
+ float: left;
+ font-family: monospace;
+ color: black
+}
+
+#ceo{
+  float: right;
+  font-family: Monaco;
+  font-style: italic;
+}
